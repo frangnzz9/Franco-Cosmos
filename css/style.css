@@ -1,0 +1,233 @@
+header {
+  grid-area: header;
+}
+header h4 {
+  color: white;
+  background-color: black;
+  padding: 30px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.buscar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: pink;
+}
+
+.nav-link {
+  color: black;
+}
+
+#nav1 {
+  grid-area: nav;
+  background-color: pink;
+  font-size: 1.5rem;
+  position: picky;
+  padding: 30px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  grid-area: section;
+  padding: 100px;
+}
+section h3 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.productos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#productos2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+section nav p {
+  text-align: center;
+  float: inline-end;
+  font-size: 20px;
+}
+
+#productos2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.p2 {
+  height: 450px;
+  width: 450px;
+  background-color: pink;
+  margin: 50px 50px 0px 50px;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+#productos2 p {
+  background-color: pink;
+  margin: 0px 50px;
+  border-radius: 2px;
+}
+
+.productos p {
+  margin: 30px;
+}
+
+.productos main {
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.Registro button {
+  margin-top: 20px;
+}
+
+.tamanoInicioSesion {
+  width: 500px;
+}
+
+#productos2 main {
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+}
+
+/* CELULAR */
+@media screen and (min-width: 0px) and (max-width: 750px) {
+  .productos, #productos2 {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+/* TABLET 
+@media screen and (min-width:750px) and (max-width:950px) {
+
+    .productos, #productos2 {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+*/
+footer {
+  grid-area: footer;
+  background-color: pink;
+  padding: 100px;
+  z-index: 1;
+}
+footer img {
+  height: 30px;
+  width: 35px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+}
+
+.hijoFooter a {
+  color: black;
+  margin: 10px 10px 10px 0px;
+}
+
+.hijoFooter a:hover {
+  color: white;
+}
+
+/* CELULAR */
+@media screen and (min-width: 0px) and (max-width: 650px) {
+  footer {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+  }
+}
+/* Estilos Generales */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik", sans-serif;
+  box-sizing: border-box;
+}
+
+/* COMPUTADORA */
+@media screen and (min-width: 750px) {
+  body {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: "header" "nav" "section" "footer";
+    gap: 10px;
+  }
+}
+/* CELULAR */
+@media screen and (min-width: 0px) and (max-width: 750px) {
+  #grid {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 5% 5% 10% 5%;
+    grid-template-areas: "header" "nav" "section" "footer";
+    gap: 10px;
+  }
+}
+#logowsp {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.tituloSecciones {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.Registro {
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  font-size: 16.6666666667px;
+}/*# sourceMappingURL=style.css.map */

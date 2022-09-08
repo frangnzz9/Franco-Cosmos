@@ -1,0 +1,111 @@
+section{
+    grid-area: section;
+    padding: 100px;
+    h3 {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+   
+}
+
+
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#productos2 {
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+section nav p {
+    text-align: center;
+    float:inline-end;
+    font-size: 20px;
+}
+
+#productos2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.p2 {
+    height: 450px;
+    width: 450px;
+    background-color: pink;
+    margin: 50px 50px 0px 50px;
+    border-radius: 5px;
+    padding: 2px;
+
+}
+
+#productos2 p {
+    background-color: pink;
+    margin: 0px 50px;
+    border-radius: 2px;
+}
+
+.productos p {
+    margin: 30px;
+}
+
+.productos main {
+    animation-duration: 1.5s;
+    
+}
+
+.boton {
+    display: flex;
+     justify-content: center;
+     padding: 60px;
+    }
+
+    .Registro button {
+        margin-top: 20px;
+    }
+
+    .tamanoInicioSesion {
+        width: 500px;
+    }
+
+    #productos2 main {
+        animation-duration: 2s;
+        
+        
+    }
+    
+    /* CELULAR */
+    @media screen and (min-width:0px) and (max-width:750px) {
+    
+        .productos, #productos2 {
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+    }
+    
+    /* TABLET 
+    @media screen and (min-width:750px) and (max-width:950px) {
+
+        .productos, #productos2 {
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    */

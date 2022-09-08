@@ -1,0 +1,37 @@
+
+
+header {
+    grid-area: header; 
+h4{
+    color: white;
+    background-color: black;
+    padding: 30px;
+    margin-bottom: 0px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+}
+
+  #logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.buscar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: pink;
+}
+
+.nav-link {
+    color: black;
+
+}
